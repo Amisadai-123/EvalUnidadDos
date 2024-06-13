@@ -47,7 +47,7 @@
                             <a class="group text-blue-400 transition-all duration-100 ease-in-out" href="#">
                                 <span
                                     class="bg-left-bottom ml-1 bg-gradient-to-r from-blue-400 to-blue-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
-                                    Iniciar seción
+                                    Iniciar sesión
                                 </span>
                             </a>
                         </h3>
@@ -111,6 +111,7 @@
 <script>
 import persona from './persona.vue'
 import usuario from './usuario.vue'
+
 export default {
     components:{
         persona,
