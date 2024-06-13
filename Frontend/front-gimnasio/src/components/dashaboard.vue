@@ -17,7 +17,7 @@
                   <span class="material-symbols-outlined">
                   bar_chart_4_bars
                   </span>
-                  <span class="ms-3">Dashboard ;)</span>
+                  <span class="ms-3">Dashboard ;</span>
                </a>
                </RouterLink>
             </li>
@@ -257,8 +257,16 @@
       <h1>Bienvenido al sistema </h1>
      
    </div>
-   <RouterView/>
+   <RouterView/><piePaginaView></piePaginaView>
 </div>
 
 </template>
 
+<script>
+import piePaginaView from 'piePagina.vue'
+export default{
+   components:{
+      piePaginaView
+   }
+}
+</script>
