@@ -83,13 +83,17 @@
     <div class="col">
         <ListarPersonas/>
     </div>
-    
+    <Piepagina></Piepagina>
     </template>
     <script>
     import ListarPersonas from './ListarPersonas.vue'
+    import Piepagina from './Piepagina.vue'
+
     export default {
         components: {
-            ListarPersonas
+            ListarPersonas,
+            Piepagina
+
         }
     }
     </script>

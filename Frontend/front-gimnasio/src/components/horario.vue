@@ -5,4 +5,14 @@
         </div>
         <router-view />
     </div>
+ 
+
 </template>
+<script>
+import Piepagina from './Piepagina.vue'
+export default {
+    components: { 
+      Piepagina
+    }
+}
+</script>

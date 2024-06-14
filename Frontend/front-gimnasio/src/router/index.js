@@ -10,7 +10,7 @@ import InstructoresView from '@/components/instructor.vue'
 import PuestoView from '@/components/puesto.vue'
 import PersonaView from '@/components/persona.vue'
 import UsuarioView from '@/components/usuario.vue'
-import piePaginaView  from '@/components/piePagina.vue'
+import PiepaginaView from '@/components/Piepagina.vue'
 
 
 
@@ -49,12 +49,13 @@ const router = createRouter({
         {path:'/horario', name:'horario', component:HorarioView},
         {path:'/instructor', name:'instructores', component:InstructoresView},
         {path:'/puesto', name:'puesto', component:PuestoView},
-        {path:'/piePagina', name:'piePagina', component:piePaginaView}
+        {path:'/Piepagina', name:'Piepagina', component:PiepaginaView}
 
       
       ]
     }
   ]
 })
+
 
 export default router

@@ -257,16 +257,18 @@
       <h1>Bienvenido al sistema </h1>
      
    </div>
-   <RouterView/><piePaginaView></piePaginaView>
+   <RouterView/>
+   
 </div>
+<Piepagina></Piepagina>
 
 </template>
-
 <script>
-import piePaginaView from 'piePagina.vue'
-export default{
-   components:{
-      piePaginaView
-   }
+import Piepagina from './Piepagina.vue'
+export default {
+    components: { 
+      Piepagina
+    }
 }
 </script>
+
